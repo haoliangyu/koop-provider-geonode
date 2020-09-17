@@ -1,0 +1,29 @@
+{
+  "name": "koop-provider-geonode",
+  "version": "0.1.0",
+  "description": "An experimental Koop provider for GeoNode",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha 'test/**/*.test.js'",
+    "start": "koop serve --debug --watch"
+  },
+  "dependencies": {
+    "config": "^3.3.1",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@koopjs/cli": "^0.6.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.2"
+  },
+  "repository": "",
+  "keywords": [
+    "koop",
+    "plugin",
+    "provider",
+    "geonode",
+    "wfs2",
+    "geojson"
+  ]
+}
